@@ -1,0 +1,152 @@
+3Mii8C Contador de carga de horas amperios,Ah charged,22 1E 32 ,((A*(2^24))+(B*(2^16))+(C*(2^8))+D)/549.3164 ,0,100000,Ah ,7E5
+3Mii8C Contador de descarga de amperios hora,Ah discharged,22 1E 32 ,Signed((E*(2^24))+(F*(2^16))+(G*(2^8)+H)/549.3164 ,0,100000,Ah ,7E5
+3Mii8C Contador por kilovatios hora de carga,Kwh charged,22 1E 32 ,((I*(2^24))+(J*(2^16))+(K*(2^8)+L))/8583.073 ,0,100000,kWh ,7E5
+3Mii8C Contador por kilovatios hora de descarga,Kwh dicharged,22 1E 32 ,Signed((M*(2^24))+(N*(2^16))+(O*(2^8)+P))/8583.073 ,0,100000,kWh ,7E5
+3Mii8C Corriente de detector de enclavamiento de alto voltaje,I detector enc,22 74 B ,(A*256+B)/1024 ,0,1000,mA ,7E5
+3Mii8C Corriente de la bateria de alto voltaje / híbrida,I bat,22 1E 3D ,(A*256+B-2048)/4 ,-100,200,A ,7E5
+3Mii8C Celda 1,Vcel 1,22 1E 40 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 10,Vcel 10,22 1E 49 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 100,Vcel 100,22 1E A3 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 101,Vcel 101,22 1E A4 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 102,Vcel 102,22 1E A5 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 11,Vcel 11,22 1E 4A ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 12,Vcel 12,22 1E 4B ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 13,Vcel 13,22 1E 4C ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 14,Vcel 14,22 1E 4D ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 15,Vcel 15,22 1E 4E ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 16,Vcel 16,22 1E 4F ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 17,Vcel 17,22 1E 50 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 18,Vcel 18,22 1E 51 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 19,Vcel 19,22 1E 52 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 2,Vcel 2,22 1E 41 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 20,Vcel 20,22 1E 53 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 21,Vcel 21,22 1E 54 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 22,Vcel 22,22 1E 55 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 23,Vcel 23,22 1E 56 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 24,Vcel 24,22 1E 57 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 25,Vcel 25,22 1E 58 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 26,Vcel 26,22 1E 59 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 27,Vcel 27,22 1E 5A ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 28,Vcel 28,22 1E 5B ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 29,Vcel 29,22 1E 5C ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 3,Vcel 3,22 1E 42 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 30,Vcel 30,22 1E 5D ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 31,Vcel 31,22 1E 5E ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 32,Vcel 32,22 1E 5F ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 33,Vcel 33,22 1E 60 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 34,Vcel 34,22 1E 61 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 35,Vcel 35,22 1E 62 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 36,Vcel 36,22 1E 63 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 37,Vcel 37,22 1E 64 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 38,Vcel 38,22 1E 65 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 39,Vcel 39,22 1E 66 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 4,Vcel 4,22 1E 43 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 40,Vcel 40,22 1E 67 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 41,Vcel 41,22 1E 68 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 42,Vcel 42,22 1E 69 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 43,Vcel 43,22 1E 6A ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 44,Vcel 44,22 1E 6B ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 45,Vcel 45,22 1E 6C ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 46,Vcel 46,22 1E 6D ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 47,Vcel 47,22 1E 6E ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 48,Vcel 48,22 1E 6F ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 49,Vcel 49,22 1E 70 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 5,Vcel 5,22 1E 44 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 50,Vcel 50,22 1E 71 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 51,Vcel 51,22 1E 72 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 52,Vcel 52,22 1E 73 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 53,Vcel 53,22 1E 74 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 54,Vcel 54,22 1E 75 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 55,Vcel 55,22 1E 76 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 56,Vcel 56,22 1E 77 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 57,Vcel 57,22 1E 78 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 58,Vcel 58,22 1E 79 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 59,Vcel 59,22 1E 7A ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 6,Vcel 6,22 1E 45 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 60,Vcel 60,22 1E 7B ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 61,Vcel 61,22 1E 7C ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 62,Vcel 62,22 1E 7D ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 63,Vcel 63,22 1E 7E ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 64,Vcel 64,22 1E 7F ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 65,Vcel 65,22 1E 80 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 66,Vcel 66,22 1E 81 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 67,Vcel 67,22 1E 82 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 68,Vcel 68,22 1E 83 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 69,Vcel 69,22 1E 84 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 7,Vcel 7,22 1E 46 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 70,Vcel 70,22 1E 85 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 71,Vcel 71,22 1E 86 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 72,Vcel 72,22 1E 87 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 73,Vcel 73,22 1E 88 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 74,Vcel 74,22 1E 89 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 75,Vcel 75,22 1E 8A ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 76,Vcel 76,22 1E 8B ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 77,Vcel 77,22 1E 8C ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 78,Vcel 78,22 1E 8D ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 79,Vcel 79,22 1E 8E ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 8,Vcel 8,22 1E 47 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 80,Vcel 80,22 1E 8F ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 81,Vcel 81,22 1E 90 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 82,Vcel 82,22 1E 91 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 83,Vcel 83,22 1E 92 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 84,Vcel 84,22 1E 93 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 85,Vcel 85,22 1E 94 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 86,Vcel 86,22 1E 95 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 87,Vcel 87,22 1E 96 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 88,Vcel 88,22 1E 97 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 89,Vcel 89,22 1E 98 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 9,Vcel 9,22 1E 48 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 90,Vcel 90,22 1E 99 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 91,Vcel 91,22 1E 9A ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 92,Vcel 92,22 1E 9B ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 93,Vcel 93,22 1E 9C ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 94,Vcel 94,22 1E 9D ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 95,Vcel 95,22 1E 9E ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 99,Vcel 99,22 1E A2 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 96,Vcel96,22 1E 9F ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 97,Vcel 97,22 1E A0 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Celda 98,Vcel 98,22 1E A1 ,(A*256+B)/4096 ,2.5,4.2,V ,7E5
+3Mii8C Estado de carga,SOC,22 02 8C ,A/2.55 ,0,100,% ,7E5
+3Mii8C HV fuente de bloqueo de corriente,I bloqueo HV,22 74 BC ,(A*256+B)/1024 ,0,1000,mA ,7E5
+3Mii8C Limite dinamico para cargar corriente,I limit char current,22 1E 1B ,A ,0,250,A ,7E5
+3Mii8C Limite dinamico para corriente de descarga,I limit disch current,22 1E 1C ,A ,0,250,A ,7E5
+3Mii8C Limite predictivo de corriente de descarga.,I lim pred disch,22 1E 1E ,A ,0,250,A ,7E5
+3Mii8C Limite predictivo para la corriente de carga.,I lim pred charge,22 1E 1D ,A ,0,250,A ,7E5
+3Mii8C Numero de serie de la unidad de control de la bateria de alto voltaje.,,  ,  ,,,  ,7E5
+3Mii8C Resistencia de aislamiento Polo negativo de  en el sistema general de alto voltaje,R aisl general Neg,22 1E 19 ,(A*256+B)*10 ,0,10000,kOhm ,7E5
+3Mii8C Resistencia aislamiento  polo negativo bateria de alto voltaje,R aisl Neg,22 1E 1A ,(A*256+B)*10 ,0,10000,kOhm ,7E5
+3Mii8C Resistencia de aislamiento más polo en el sistema general de alto voltaje,R aisl general Pos,22 1E 17 ,(A*256+B)*10 ,0,10000,kOhm ,7E5
+3Mii8C Resistencia de aislamiento polo positivo batería de alto voltaje,R aisl Pos,22 1E 18 ,(A*256+B)*10 ,0,10000,kOhm ,7E5
+3Mii8C Sensor de temperatura 1,T modulo  1,22 1E AE ,(A*256+B)/64 ,-20,60,C,7E5
+3Mii8C Sensor de temperatura 10,T modulo  10,22 1E B7 ,(A*256+B)/64 ,-20,60,C,7E5
+3Mii8C Sensor de temperatura 11,T modulo  11,22 1E B8 ,(A*256+B)/64 ,-20,60,C,7E5
+3Mii8C Sensor de temperatura 12,T modulo  12,22 1E B9 ,(A*256+B)/64 ,-20,60,C,7E5
+3Mii8C Sensor de temperatura 13,T modulo  13,22 1E BA ,(A*256+B)/64 ,-20,60,C,7E5
+3Mii8C Sensor de temperatura 14,T modulo  14,22 1E B ,(A*256+B)/64 ,-20,60,C,7E5
+3Mii8C Sensor de temperatura 15,T modulo  15,22 1E BC ,(A*256+B)/64 ,-20,60,C,7E5
+3Mii8C Sensor de temperatura 16,T modulo  16,22 1E BD ,(A*256+B)/64 ,-20,60,C,7E5
+3Mii8C Sensor de temperatura 17,T modulo  17,22 74 25 ,(A*256+B)/64 ,-20,60,C,7E5
+3Mii8C Sensor de temperatura 2,T modulo  2,22 1E AF ,(A*256+B)/64 ,-20,60,C,7E5
+3Mii8C Sensor de temperatura 3,T modulo  3,22 1E B0 ,(A*256+B)/64 ,-20,60,C,7E5
+3Mii8C Sensor de temperatura 4,T modulo  4,22 1E B1 ,(A*256+B)/64 ,-20,60,C,7E5
+3Mii8C Sensor de temperatura 5,T modulo  5,22 1E B2 ,(A*256+B)/64 ,-20,60,C,7E5
+3Mii8C Sensor de temperatura 6,T modulo  6,22 1E B3 ,(A*256+B)/64 ,-20,60,C,7E5
+3Mii8C Sensor de temperatura 7,T modulo  7,22 1E B4 ,(A*256+B)/64 ,-20,60,C,7E5
+3Mii8C Sensor de temperatura 8,T modulo  8,22 1E B5 ,(A*256+B)/64 ,-20,60,C,7E5
+3Mii8C Sensor de temperatura 9,T modulo  9,22 1E B6 ,(A*256+B)/64 ,-20,60,C,7E5
+3Mii8C Suma de los voltajes de todas las celdas de la bateria.,Vbat SUMAceldas,22 1E 3C ,((A*(2^16))+(B*(2^8))+C)/4096 ,0,400,V ,7E5
+3Mii8C Temperatura de la bateria,Tbat,22 2A 0B ,(A*256+B)/64 ,-20,60,C,7E5
+3Mii8C Temperatura medida mas alta,Tbat max,22 1E 0E ,D ,1,17,Indice,7E5
+3Mii8C Temperatura modulo mas alto,Tmax modulo,22 1E 0E ,(A*256+B)/64,-20,60,C,7E5
+3Mii8C Temperatura medida mas baja,Tbat min,22 1E 0F ,D ,1,17,Indice,7E5
+3Mii8C Temperatura modulo mas baja,Tmin modulo,,(A*256+B)/64,-20,60,C,7E5
+3Mii8C Voltaje de fuente de bloqueo de alto voltaje,V bloqueo HV,22 74 BA ,(A*256+B)/3276 ,0,100,V ,7E5
+3Mii8C Voltaje de la bateria de alto voltaje,Vbat  ,22 1E 3B ,(A*256+B)/4 ,0,400,V ,7E5
+3Mii8C Voltaje del detector de enclavamiento de alto voltaje,V enclavamiento HV,22 74 B9 ,(A*256+B)/3276 ,0,400,V ,7E5
+3Mii8C Voltaje maximo de las celdas de la bateria,Vcel max,22 1E 33 ,(A*256+B)/4096  ,0,4.2,V ,7E5
+3Mii8C Celda mas alta,Celda vmax,22 1E 33 ,D ,0,102,Indice,7E5
+3Mii8C Voltaje minimo de las celdas de la bateria,Vcel min,22 1E 34 ,(A*256+B)/4096 ,0,4.2,V ,7E5
+3Mii8C Celda mas baja,Celda Vmin,22 1E 34 ,D ,0,102,Indice,7E5
+3Mii8C Voltaje negativo de la bateria de alto voltaje frente a los contactores,Vneg antes contactor,22 1E 35 ,Signed(A*256+B)/32 ,0,400,V ,7E5
+3Mii8C Voltaje positivo de la bateria de alto voltaje detrás de los contactores de carga,Vpos despues contactor,22 1E 39 ,Signed(A*256+B)/16 ,0,400,V ,7E5
+3Mii8C Voltaje positivo de la bateria de alto voltaje frente a los contactores,Vpos antes contactor,22 1E 36 ,(A*256+B)/32 ,0,400,V ,7E5

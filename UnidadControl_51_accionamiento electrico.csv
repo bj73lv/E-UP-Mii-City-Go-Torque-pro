@@ -1,0 +1,44 @@
+2Mii51 CAN señalar el voltaje de traccion del sistema de gestion de la bateria,V gest.batCAN,22 46 6E ,(A*256+B)/32 ,0,400,V ,7E6
+2Mii51 CAN señalizar corriente de red de traccion del sistema de gestion de bateria,I gest.batCAN,22 46 5F ,Signed(A*256+B)/16 ,-100,200,A ,7E6
+2Mii51 Convertidor CC / CC Temperatura de la seccion de potencia,Temp mod potencia,22 46 4F ,(A*256+B)/64 ,-20,50,C,7E6
+2Mii51 Convertidor DC / DC temperatura de PCB,Tpcb DCDC,22 46 4E ,(A*256+B)/64 ,-20,50,C,7E6
+2Mii51 Convertidor de enlace de CC /CC,V cc/cc,22 3E 72 ,(A*256+B)/32 ,0,400,V ,7E6
+2Mii51 Corriente de red de traccion del convertidor CC / CC,I cc/cc,22 46 50 ,Signed(A*256+B)/512 ,-100,200,A ,7E6
+2Mii51 Electronica de potencia fuente de alimentacion interna 1,Vfuente pot 1,22 46 6C ,(A*256+B)/512 ,0,400,V ,7E6
+2Mii51 Electronica de potencia fuente de alimentacion interna 2,Vfuente pot 2,22 46 6B ,(A*256+B)/512 ,0,400,V ,7E6
+2Mii51 Electronica de potencia fuente de alimentacion interna IGBT,Vfuente IGBT,22 46 5A ,Signed(A*256+B)/512 ,0,400,V ,7E6
+2Mii51 Electronica de potencia Modulo IGBT temperatura fase U,TigbtU,22 46 64 ,(A*256+B)/64 ,-20,100,C,7E6
+2Mii51 Electronica de potencia Modulo IGBT temperatura fase V,TigbtV,22 46 63 ,(A*256+B)/64 ,-20,100,C,7E6
+2Mii51 Electronica de potencia Modulo IGBT temperatura fase W,TigbtW,22 46 62 ,(A*256+B)/64 ,-20,100,C,7E6
+2Mii51 Fase corriente fase U,Iu,22 3E F9 ,Signed(A*256+B)/16 ,0,150,A ,7E6
+2Mii51 Fase corriente fase U ilimitada,Iu ilimitada,22 46 71 ,Signed(A*256+B)/16 ,0,150,A ,7E6
+2Mii51 Fase corriente fase V,Iv,22 3E FA ,Signed(A*256+B)/16 ,0,150,A ,7E6
+2Mii51 Fase corriente fase V ilimitada,Iv ilimitada,22 46 70 ,Signed(A*256+B)/16 ,0,150,A ,7E6
+2Mii51 Fase corriente fase W,Iw,22 3E FB ,Signed(A*256+B)/16 ,0,150,A ,7E6
+2Mii51 Fase corriente fase W ilimitado,Iw ilimitada,22 46 6F ,Signed(A*256+B)/16 ,0,150,A ,7E6
+2Mii51 Motor corriente efectiva,Imot efectiva,22 46 65 ,(A*256+B)/16 ,0,200,A ,7E6
+2Mii51 Motor Par real calculado ,Par calculado,22 03 08 ,Signed(A*256+B)/16 ,0,300,Nm ,7E6
+2Mii51 Motor Par valor real,Par real,22 3E E9 ,Signed(A*256+B)/16 ,0,300,Nm ,7E6
+2Mii51 Motor Potencia,Pmot,22 46 56 ,Signed(A*256+B)/64 ,0,100,kW ,7E6
+2Mii51 Motor Potencia calculado,Pmot calculado,22 46 58 ,Signed(A*256+B)/64 ,0,100,kW ,7E6
+2Mii51 Motor RPM,RPM mot,22 3E 97 ,(A*256+B)/4 ,0,18000,1/min ,7E6
+2Mii51 Motor temperatura,Tmotor,22 3E 94 ,(A*256+B)/64 ,0,100,C,7E6
+2Mii51 Motor Velocidad,RPM mot1,22 F4 0C ,(A*256+B)/4 ,0,18000,1/min ,7E6
+2Mii51 Motor Velocidad  ,RPM mot2,22 3E EC ,(A*256+B)/4 ,0,18000,1/min ,7E6
+2Mii51 Motor Velocidad  valor real.,RPM real,22 46 59 ,(A*256+B)/4 ,0,18000,1/min ,7E6
+2Mii51 Posicion del pedal del acelerador,Pos ped acc,22 F4 49 ,A/2.55 ,0,100,% ,7E6
+2Mii51 Potencia electronica traccion tension de red,Vpotencia,22 46 75 ,(A*256+B)/32 ,0,400,V ,7E6
+2Mii51 Punto de ajuste de voltaje de enlace de CC,Vpunt ajuste,22 3E ED ,(A*256+B)/32 ,0,400,V ,7E6
+2Mii51 Sensor de Posicion del rotor amplitud sinusoidal,Vpos rotor seno,22 4E 90 ,(A*256+B)/512 ,0,5,V ,7E6
+2Mii51 Sensor de Posicion del rotor coseno amplitud,Vpos rotor coseno,22 4E 91 ,(A*256+B)/512 ,0,5,V ,7E6
+2Mii51 Sensor de Posicion del rotor coseno offset,Vpos rotor cos offset,22 4E 93 ,(A*256+B)/512 ,0,5,V ,7E6
+2Mii51 Sensor de Posicion del rotor pista cosenoidal,Pos cos,22 46 61 ,A*256+B ,,,  ,7E6
+2Mii51 Sensor de Posicion del rotor sinusoidal,Pos sen,22 46 60 ,A*256+B ,,,  ,7E6
+2Mii51 Sensor de Posicion del rotor sinusoidal,Vpos rotor sinus,22 4E 92 ,(A*256+B)/512 ,0,5,V ,7E6
+2Mii51 Convertidor DCDC Temperatura valor real,Tdcdc real,22 3E B5 ,(A*256+B)/64 ,0,50,C,7E6
+2Mii51 Motor Temperatura del estator ,Testator motor,22 46 72 ,(A*256+B)/64 ,0,100,C,7E6
+2Mii51 Tension de enlace de CC,Vcc enlace,22 3E 93 ,(A*256+B)/32 ,0,400,V ,7E6
+2Mii51 Convertidor CC / CC Tension de red de traccion ,V cc/cc traccion,22 46 5E ,(A*256+B)/32 ,0,400,V ,7E6
+2Mii51 Convertidor CC / CC Tension de salida regulada Kl.30,V cc/cc KI.30,22 46 5C ,Signed(A*256+B)/512 ,0,400,V ,7E6
+2Mii51 "Tension electronica de potencia clase 30, canal 1",Vpot30 cnal 1,22 46 5D ,Signed(A*256+B)/512 ,0,15,V ,7E6
+2Mii51 Valor de carga normalizado SOC,SOC,22 F4 04 ,A/2.55 ,0,100,% ,7E6

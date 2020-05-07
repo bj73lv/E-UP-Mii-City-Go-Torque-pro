@@ -1,0 +1,28 @@
+1Mii01 Aire acondicionado compresor refrigerante presion,Presion A/C,22 10 17 ,(A*256+B)*2 ,0,15000,hPa ,7E0
+1Mii01 Voltaje de la bateria,Vbat,22 10 5A ,(A*256+B)*20 ,0,390000,mV ,7E0
+1Mii01 Potencia en el sistema electrico de a bordo.,Pot Aux,22 10 77 ,(A*256+B)*4 ,0,6000,W ,7E0
+1Mii01 HybridBattery_battery_performance_maximum_value,Pmax bat,22 15 02 ,(A*256+B)*4 ,-100000,100000,W ,7E0
+1Mii01 Valor relativo de la temperatura de la bateria hibrida,Ta val rel,22 14 9B ,(A*256+B)/100 ,0,100,% ,7E0
+1Mii01 Indicador de carga de temperatura de bateria hibrida,Carga Ta,22 11 65 ,(A*256+B)/100 ,0,100,% ,7E0
+1Mii01 Terminal de voltaje 30,Vpin30,22 F4 42 ,(A*256+B)/1000 ,0,390,V ,7E0
+1Mii01 DC_DC_transformer_highvoltage_section_voltage_actual_value,V DC/DC,22 15 87 ,(A*256+B)/32 ,0,390,V ,7E0
+1Mii01 Voltage motor,V mot,22 14 84 ,(A*256+B)/32 ,0,390,V ,7E0
+1Mii01 Velocidad actual del motor electrico,Rpm ,22 14 9A ,(A*256+B)/4 ,0,18000,1/min ,7E0
+1Mii01 Adaptacion del punto de conmutacion de descenso,V descenso,22 10 28 ,(A*256+B)/5 ,0,150000,mV ,7E0
+1"Mii01 Deteccion de reduccion del pedal del acelerador, umbral de voltaje",V pedal red,22 10 29 ,(A*256+B)/5 ,0,5000,mV ,7E0
+1"Mii01 Pedal acelerador, voltaje del sensor 1",VpedalAcele1 1,22 10 2A ,(A*256+B)/5 ,0,5000,mV ,7E0
+1"Mii01 Pedal acelerador, voltaje del sensor 2",VpedalAcele2,22 10 2B ,(A*256+B)/5 ,0,5000,mV ,7E0
+1Mii01 Bateria hibrida Valor actual de carga,SOC,22 11 67 ,2byte ,,,  ,7E0
+1Mii01 Aceleracion,Aceleracion,22 12 B0 ,2byte ,,,  ,7E0
+1Mii01 Velocidad del vehiculo,Km/h,22 F4 0D ,A ,0,150,km/h ,7E0
+1Mii01 Presion de aire ambiente,Presion Ext.,22 F4 33 ,"A/0.133",750,1020,kPa ,7E0
+1Mii01 Corriente del valor real de calentamiento PTC,I PTC,22 16 04 ,A/16 ,0,100,A ,7E0
+1Mii01 Posicion del pedal del acelerador 1,Pos Acele1,22 F4 49 ,"A/2.55 ",0,100,% ,7E0
+1Mii01 Posicion del pedal del acelerador 2,Pos Acele2,22 F4 4A ,"A/2.55 ",0,100,% ,7E0
+1Mii01 Duracion restante de la bateria,SOC restante,22 F4 5B ,"A/2.55 ",0,100,% ,7E0
+1Mii01 Temperatura exterior,T ext.,22 F4 46 ,A/8 ,-20,50,C ,7E0
+1Mii01 Potencia motor,Pmotor,22 14 7E ,Signed(A*256+B)/250 ,-40,100,kW ,7E0
+1Mii01 Potencia bateria Real,Pbat real,22 14 85 ,Signed(A*256+B)/250 ,-40,100,kW ,7E0
+1Mii01 Par motor,Par real,22 14 7F ,Signed(A*256+B)/3 ,0,300,Nm ,7E0
+1Mii01 Corriente motor,I motor,22 14 7D ,Signed(A*256+B)/32 ,-100,250,A ,7E0
+1Mii01 Consumo de corriente en el sistema electrico de a bordo.,I auxiliares,22 16 17 ,Signed(A*256+B)/32 ,0,100,A ,7E0
