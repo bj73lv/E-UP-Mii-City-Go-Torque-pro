@@ -1,0 +1,18 @@
+4MiiC6 Cargador de HV - voltaje de salida real ,Icargador,22 1D A7 ,A ,0,400,V ,744
+4MiiC6 Cargador de_batería_de_temperatura ,Tcargador,22 15 D8 ,A-40 ,-20,60,C,744
+4MiiC6 Cargador de bateria de temperatura PFC Coil,TcoilPFC,22 15 D9 ,A-40 ,-20,60,C,744
+4MiiC6 temperatura_DCDC_bobina ,TbobinaDCDC,22 15 DA ,A-40 ,-20,60,C,744
+4MiiC6 temperature_DCDC_powerline ,TpowerlineDCDC,22 15 EC ,A-40 ,-20,60,C,744
+4MiiC6 eficiencia de carga,Eficiencia,22 15 D6 ,A*0.1+75 ,75,100,% ,744
+4MiiC6 power_loss_battery_charger,Pperdidacarga,22 15 E1 ,A*20 ,0,10000,W ,744
+"4MiiC6 Corriente de red de CA, valor actual ",!ac red real,22 1D A8 ,A/10 ,0,40,A ,744
+"4MiiC6 Corriente de red de CA, punto de ajuste ",Iac red programada,22 15 D3 ,A/10 ,0,40,A ,744
+4MiiC6 Voltaje de enlace de DC ,Vdc,22 15 DB ,A/10 ,0,400,V ,744
+4MiiC6 gate_driver_voltage_PFC ,VgPFC,22 15 DC ,A/10 ,0,400,V ,744
+4MiiC6 gate_driver_voltage_DCDC ,VDCDC,22 15 DD ,A/10 ,0,400,V ,744
+4MiiC6 Valor_de_tension_real_de_AC ,Vac red,22 1D A9 ,B ,0,300,V ,744
+4MiiC6 El punto de ajuste de la corriente de carga de HV ,Icarga prog.,22 42 38 ,B/4 ,0,40,A ,744
+4MiiC6 Corriente  carga HV el valor real actual ,Icarga real,22 42 37 ,B/4 ,0,40,A ,744
+,,,,,,,
+,,,,,,,
+ ,,,,,,,
